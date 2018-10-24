@@ -1,0 +1,27 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.logo-top {
+	width: 700px;
+	margin: 5px auto;
+}
+
+.song .song-title {
+	text-align: center;
+}
+
+.song-content .chorus {
+	font-weight: bold;
+	margin-bottom: 55px;
+}
+
+.song-content {
+	text-align: center;
+}
+
+.song-content .verse {
+	margin-bottom: 55px;
+}
