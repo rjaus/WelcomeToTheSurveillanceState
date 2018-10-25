@@ -33,6 +33,9 @@ plugins:
 
 categories: [songs, privacy, privacy-guide]
 
+commentbox:
+  project: "5712837116690432-proj"
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
