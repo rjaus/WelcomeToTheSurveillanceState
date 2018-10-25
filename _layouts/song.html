@@ -7,6 +7,10 @@ layout: default
     <h1 class="song-title">{{ page.title | escape }}</h1>
   </header>
 
+  <iframe class="song-youtube-embed" width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{page.youtube_id}}?controls=0&loop=1&widget_referrer=welcometothesurveillancestate.com&modestbranding=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen align="middle"></iframe>
+
+  <iframe class="song-spotify-embed" src="{{page.spotify_url}}" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
   <div class="song-content">
     {{ content }}
   </div>
