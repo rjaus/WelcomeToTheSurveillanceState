@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<div class="privacy-guide">
+  {{content}}
+
+  <h1>Privacy Topics</h1>
+  <ul class="privacy-guide-list">
+  {% for page in site.pages %}
+    {% if page.categories contains 'privacy-guide' %}
+        <li><a class="post-link" href="{{ page.url | relative_url }}">{{page.title | escape}}</a></li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</div>

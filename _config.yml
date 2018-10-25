@@ -16,8 +16,8 @@
 title: Welcome To The Surveillance State
 email: welcome@welcometothesurveillancestate.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome To The Surveillance State is an art based project that produces content that 
-  builds awareness of online privacy, surveillance capitalism & mass surveillance.
+  Welcome To The Surveillance State is an art based project that produces content to 
+  build awareness around online privacy & surveillance capitalism.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://welcometothesurveillancestate.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -31,7 +31,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-categories: [songs, privacy]
+categories: [songs, privacy, privacy-guide]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
